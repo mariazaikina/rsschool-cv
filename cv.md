@@ -1,5 +1,3 @@
-# rsschool-cv
-
 ## Maria Zaikina</br>
 
 

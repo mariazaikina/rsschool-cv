@@ -19,8 +19,8 @@ ___
 Saratov State Law Academy, 2014 (area of study: law);
 
 **Experience:**
-1. Saratov city administartion;
-2. Saratov city council.
++ Saratov city administartion;
++ Saratov city council.
 
 **Priorities:**
 + to make world a better place;

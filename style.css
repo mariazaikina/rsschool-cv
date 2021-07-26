@@ -1,0 +1,55 @@
+.header{
+    font: 28px, bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    background:rgba(156, 160, 161,0.5);
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+p
+{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+div{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif
+    }
+.key{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border:1px solid rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    font-style:normal;
+    text-align:center;
+}
+.division{
+width:320px;
+height: 30px;
+}
+
+.logo{
+    width:320px;
+    height:240px;
+}
+ul{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+ol{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+li{
+    text-align:center;
+}

@@ -1,0 +1,24 @@
+    .body{
+        border: 1px solid red;
+        margin: 0;
+    }
+    .section{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .dark-section{
+        background-color: #030303
+    }
+    .video-section{
+        padding-top: 90px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 1440px;
+        width: calc (100%-40px);
+    }
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }

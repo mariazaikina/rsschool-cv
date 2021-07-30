@@ -1,58 +1,76 @@
 <!doctype html>
-<html lang="en">
+<html class= html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico">
-   <title> museum </title> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/svg/logo.svg">
+   <title> Museum </title> 
 </head>
 <body class="body">
     <div class="container">
 <header class="header">
-    <div class="container header-container">
-    <logo>
-        <h1>louvre</h1>
-        <img background-color:"assets/svg/logo.svg">
-    </logo>
-    <frame></frame>
-</div>
+    <div class="container header-container"></div>
+    <div class="logo__img"> louvre </div>
+      </div>
+    </div>
     </header>
     </div>
-<nav>
+<nav class= "nav">
     <div class="container">
-    <ul>
-        <li></li>
+    <ul class="nav__list">
+        <li class="nav__item"> <a href="#visiting"> visiting </a></li>
+        <li class="nav__item"> <a href="#explore"> explore </a></li> 
+        <li class="nav__item"> <a href="#video"> video </a></li>
+        <li class="nav__item"> <a href= "#tickets"> tickets </a> </li>
+        <li class="nav__item"> <a href= #contacts> contacts </a> </li>
     </ul>
-</nav>
 </div>
+</nav>
+
 <main class="main">
-    <section class="section dark-section">
+
+    <section class="section dark-section welcome-section">
     <div class="container">
-        <h2>welcome</h2>
+        <h1 class="welcome-title"> welcome to the louvre</h1>
+        <p>from the castle to the museum</p>
+        <div class="button__discover">
+        <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"> Discover the louvre </a>
+        </div>    
+    <img class= "background" src="./assets/img/background.jpg" alt="background">
     </div>
     </section>
 
-    <section class="section">
+    <section class="section visiting-section" id ="visiting">
         <div class="container">
-        <h2>visiting</h2>
-        <h3>royal palace</h3>
-        <h3>denon wing</h3>
-        <h3>collonade perrault</h3>
-        <h3>greek hall</h3>
-        <h3>mona lisa</h3>
-        <h3>night palace</h3>
+        <h2 class="section-title underline-title">virtual tour</h2>
+        <div class="container card-holder">
+        <h3 class="card-item"><a href ="#">royal palace</a></h3>
+        <h3 class="card-item"><a href ="#">denon wing</a></h3>
+        <h3 class="card-item"><a href ="#">collonade perrault</a></h3>
+        <h3 class="card-item"><a href ="#">greek hall</a></h3>
+        <h3 class="card-item"><a href ="#">mona lisa</a></h3>
+        <h3 class="card-item"><a href ="#">night palace</a></h3>
+    </div>
         </div>
     </section>
-    <section class="section dark-section">
+
+    <section class="section dark-section explore-section" id="explore">
         <div class="container">
-        <h2>explore</h2>
+        <h2 class="section-title section-blacktitle">explore</h2>
         </div>
     </section>
-    <section class="section video-section">
+
+    <section class="section video-section" id="video">
         <div class="container">
-        <h2>video</h2>
+        <h2 class="section-title">video</h2>
         <input type="range">
         <input type="range">
         <button></button>
@@ -63,9 +81,10 @@
         <button></button>
         </div>
     </section>
-    <section class="section dark-section">
+
+    <section class="section dark-section tickets-section" id="tickets">
         <div class="container">
-        <h2>tickets</h2>
+        <h2 class="section-title section-blacktitle">tickets</h2>
        <input type="radio">
        <input type="radio"> 
        <input type="radio">
@@ -78,12 +97,15 @@
         <button></button>
         </div>
     </section>
-    <section class="section">
+
+    <section class="section contacts-section" id="contacts">
         <div class="container">
-        <h2>contacts</h2>
+        <h2 class="section-title"> contacts</h2>
         </div>
     </section>
+
 </main>
+
 <footer class="footer">
     <div class="container">
 <nav>

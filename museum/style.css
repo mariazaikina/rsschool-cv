@@ -1,24 +1,112 @@
-    .body{
-        border: 1px solid red;
-        margin: 0;
-    }
-    .section{
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-    .dark-section{
-        background-color: #030303
-    }
-    .video-section{
-        padding-top: 90px;
-    }
-    .container{
-        margin: 0 auto;
-        max-width: 1440px;
-        width: calc (100%-40px);
-    }
-    .header-container{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/RobotoThin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Forum;
+  src: url("./assets/fonts/Forum-Regular.ttf");
+  font-weight: 400;
+}
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  border: 1px solid red;
+  margin: 0;
+}
+.welcome-title {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.dark-section {
+  background-color: #030303;
+}
+.video-section {
+  padding-top: 90px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  height:1415px;
+  width: calc (100%-40px);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.logo__img {
+  background-image: url(./assets/svg/logo.svg);
+  text-transform: uppercase;
+  position: absolute;
+  width: 125px;
+  height: 50px;
+  left: 70px;
+  top: 0px;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+ 
+}
+.nav__list {
+  list-style: none;
+  max-width: 720px;
+  height: 50px;
+  display: flex;
+  flex-wrap: no wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__item {
+  width: calc (100%/5);
+  margin-right: 1rem;
+}
+.background {
+  width: 1215px;
+  height: 750px;
+  float: right;
+  background-position: calc (100%-720px) calc(100%-10px);
+}
+.underline-title{
+    position: relative;
+}
+.underline-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: red;
+  }
+  .card-holder{
+      display: flex;
+      max-width: 1440px;
+      column-gap: 60px;
+      flex-wrap: wrap;
+  }
+  .card-item{
+      display: block;
+  }

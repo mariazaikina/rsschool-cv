@@ -4,93 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
-
+     <link rel="icon" href="./assets/svg/logo.svg">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/svg/logo.svg">
    <title> Museum </title> 
 </head>
+
 <body class="body">
-    <div class="container">
-<header class="header">
-    <div class="container header-container"></div>
-    <div class="logo__img"> louvre </div>
-      </div>
+    
+    
+    <header class="header">
+
+        <div class="header-container container">
+<div class="header__full">
+    
+        <div class="logo-img"></div>
+        <img src="assets/svg/logo.svg" alt="logo">
+        <div class="logo__title"> louvre </div> 
     </div>
-    </header>
-    </div>
+
+      <div class="header__nav">
 <nav class= "nav">
-    <div class="container">
     <ul class="nav__list">
-        <li class="nav__item"> <a href="#visiting"> visiting </a></li>
-        <li class="nav__item"> <a href="#explore"> explore </a></li> 
-        <li class="nav__item"> <a href="#video"> video </a></li>
-        <li class="nav__item"> <a href= "#tickets"> tickets </a> </li>
-        <li class="nav__item"> <a href= #contacts> contacts </a> </li>
+        <li class="nav__item"> <a href="#visiting"> Visiting </a></li>
+        <li class="nav__item"> <a href="#explore"> Explore </a></li> 
+        <li class="nav__item"> <a href="#video"> Video </a></li>
+        <li class="nav__item"> <a href="#tickets"> Tickets </a> </li>
+        <li class="nav__item"> <a href="#contacts"> Contacts </a> </li>
     </ul>
-</div>
 </nav>
 
+</div>
+</div>
+
+</header>
+
 <main class="main">
-
-    <section class="section dark-section welcome-section">
-    <div class="container">
-        <h1 class="welcome-title"> welcome to the louvre</h1>
-        <p>from the castle to the museum</p>
-        <div class="button__discover">
-        <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"> Discover the louvre </a>
-        </div>    
-    <img class= "background" src="./assets/img/background.jpg" alt="background">
-    </div>
-    </section>
-
-    <section class="section visiting-section" id ="visiting">
+   
+   
+    <section class="section dark-section welcome-section" id="welcome">
         <div class="container">
-        <h2 class="section-title underline-title">virtual tour</h2>
-        <div class="container card-holder">
-        <h3 class="card-item"><a href ="#">royal palace</a></h3>
-        <h3 class="card-item"><a href ="#">denon wing</a></h3>
-        <h3 class="card-item"><a href ="#">collonade perrault</a></h3>
-        <h3 class="card-item"><a href ="#">greek hall</a></h3>
-        <h3 class="card-item"><a href ="#">mona lisa</a></h3>
-        <h3 class="card-item"><a href ="#">night palace</a></h3>
+            
+<div class="welcome__block background">
+            <div class="welcome__from--button">
+        <h1 class="welcome-title"> welcome <br>
+            to the louvre </h1>
+            <div class="welcome-subtitle"> From the castle to the museum </div>
+
+        <div class="button__block">
+        <a class ="button__discover" href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"> Discover the Louvre </a>
+        </div>  
+    </div>
     </div>
         </div>
+</section>
+       <section class="section visiting-section" id ="visiting">
+<div class="container">
+        <h2 class="section-title underline-title visiting-title">virtual tour</h2>
+        <div class="card-holder">
+<div class="royal__container">
+        <img class="card-img" src="assets/img/royalpalace.jpg" alt="royal palace">
+        <h3 class="card-item underline-item"><a href ="#"> royal palace </a></h3>
+        <p class ="card-subtitle"> 360° Virtual Tour</p>
+        <p class ="card-description"> Google Street Panorama View </p>
+</div>
+
+<div class="denon__container">
+        <img class="card-img" src="assets/img/denonwing.jpg" alt="denon wing">
+        <h3 class="card-item underline-item"><a href ="#">denon wing</a></h3>
+            <p class ="card-subtitle"> 360° Virtual Tour</p>
+            <p class ="card-subtitle card-description"> Google Street Panorama View </p>
+</div>
+<div class="collonade__container">
+            <img class="card-img" src="assets/img/collonadeperrault.jpg" alt="collonade perrault">
+        <h3 class="card-item underline-item"><a href ="#">collonade perrault</a></h3>
+            <p class ="card-subtitle"> 360° Virtual Tour</p>
+            <p class =" card-subtitle card-description"> Google Street Panorama View </p>
+</div>
+<div class="greek__container">
+<img class="card-img" src="assets/img/greekhall.jpg" alt="greek hall">
+        <h3 class="card-item underline-item"><a href ="#">greek hall</a></h3>
+            <p class ="card-subtitle">360° Virtual Tour</p>
+            <p class ="card-subtitle card-description"> Google Street Panorama View </p>
+</div>
+    
+<div class="mona__container">
+<img class="card-img" src="assets/img/monalisa.jpg" alt="mona lisa">
+        <h3 class="card-item underline-item"><a href ="#">mona lisa</a></h3>
+            <p class ="card-subtitle">360° Virtual Tour</p>
+            <p class ="card-subtitle card-description"> Google Street Panorama View </p>
+</div>
+    <div class="night__container">     
+<img class="card-img" src="assets/img/nightpalace.jpg" alt="night palace">
+        <h3 class="card-item underline-item"><a href ="#">night palace</a></h3>
+            <p class ="card-subtitle">360° Virtual Tour</p>
+            <p class ="card-subtitle card-description"> Google Street Panorama View </p>
+        </div>  
+     </div>
+        </div>
     </section>
+
 
     <section class="section dark-section explore-section" id="explore">
-        <div class="container">
-        <h2 class="section-title section-blacktitle">explore</h2>
-        </div>
+        
+            <div class="explore-container container">
+            <div class="explore__text-container">
+            <h2 class="section-title explore-title"> picture explore </h2>
+                 <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+<p>It was cleaned in 1984 to remove a <span class= "yellow-veil"> "yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+<p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+     </div> 
+        <div class="explore__img-container">
+        <img class="explore-img" src="assets/img/explore-img.jpg" alt="explore"></div>
+</div>
     </section>
+
+
 
     <section class="section video-section" id="video">
         <div class="container">
-        <h2 class="section-title">video</h2>
-        <input type="range">
-        <input type="range">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+            <div class="video-container">
+                <div class="video-poster">
+        <video src="assets/video/video.mp4" poster="./assets/video/poster.png" controls></video>
+    </div>
+       <div class="video__subtitle">
+        <h2 class="section-title video-title"> video journey</h2>
+        <p class="video__description">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code </p>
+        </div> 
+    </div>
         </div>
     </section>
 
     <section class="section dark-section tickets-section" id="tickets">
         <div class="container">
-        <h2 class="section-title section-blacktitle">tickets</h2>
-       <input type="radio">
-       <input type="radio"> 
-       <input type="radio">
-       <input type="number">
-       <input type="number">
-        <button></button>
+        <h2 class="section-title underline-title tickets-title"> buy tickets</h2>
+        <div class="tickets-container">
+        <img class= "tickets-img" src="assets/img/tickets-img.jpg" alt="tickets">
+        <div class ="tickets__list"> 
+            <p class="tickets__subtitle">Ticket type:</p>
+            <p class="tickets__item">
+           <input type="radio" name="permanent" value="one"> Permanent exibition</p>
+            <p class="tickets__item">
+            <input type="radio" name= "temporary" value="two"> Temporary exibition</p>
+            <p class="tickets__item">
+            <input type="radio" name="combined" value="three"> Combined admission</p>
+        </div>
+        <div class ="amount__list">
+            <p class="tickets__subtitle"> Amount:</p>
+            <div class="tickets-item">
+            <p class="tickets__item--basic"> Basic 18+</p>
+            <input type="number">
+            <p class="tickets__item--senior"> Senior 65+</p>
+            <input type="number">
+        </div>
+             <div class="total"> Total €220 </div>
+        <button class= "buy__now"> Buy now </button>
+    </div>
+        </div>
+        
         <button></button>
         <button></button>
         <button></button>
@@ -100,22 +170,59 @@
 
     <section class="section contacts-section" id="contacts">
         <div class="container">
-        <h2 class="section-title"> contacts</h2>
-        </div>
-    </section>
+        <h2 class="section-title underline-title"> contacts</h2>
+        <div class="place__adress--map">
+        <div class="place__adress">
+        <div class="place">
+<p>Palais Royal</p>
+<p>Musee du Louvre</p>
+</div>
+    <div class="adress">
+<p>address:75001 Paris, France</p>
+<p>phone:+33(0) 1 40 20 50 50</p>
+<p>mail:info@louvre.fr</p>
+</div>
+</div>
 
+<div class="map">
+    <img src="assets/img/map.png" alt="map">
+ </div>
+ </div>
+</div>
+
+</section>
 </main>
 
 <footer class="footer">
-    <div class="container">
-<nav>
-    <ul>
-        <li></li>
-    </ul>
-    <ul>
-        <li></li>
+    <div class="footer-container container">
+        <div class="footer__logo">
+        <div class="footer__logo-img">
+        <img src="assets/svg/logo.svg" alt="logo"></div>
+        <div class="footer__logo-title"> louvre </div> 
+</div>
+        <div class="footer__nav">
+            <nav class= "nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item"> <a href="#welcome"> Welcome </a></li>
+                    <li class="footer-nav__item"> <a href="#visiting"> Visiting </a></li>
+                    <li class="footer-nav__item"> <a href="#explore"> Explore </a></li> 
+                    <li class="footer-nav__item"> <a href="#video"> Video </a></li>
+                    <li class="footer-nav__item"> <a href="#tickets"> Tickets </a> </li>
+                    <li class="footer-nav__item"> <a href="#contacts"> Contacts </a> </li>
+                </ul>
+            </nav>
+</div>
+<div class="footer__social-container">
+<nav class= "social">
+    <ul class="social__list">
+        <li class="social__item"> <img src="./assets/svg/youtube.svg" alt="youtube"></li>
+        <li class="social__item"> <img src="./assets/svg/instagram.svg" alt ="instagram"> </li>
+        <li class="social__item"> <img src="./assets/svg/facebook.svg" alt= "facebook"> </li> 
+        <li class="social__item"> <img src="./assets/svg/twitter.svg" alt= "twitter"> </li>
+        <li class="social__item"> <img src="./assets/svg/pinterest.svg" alt="pinterest"> </li>
     </ul>
 </nav>
+</div>
 </div>
 </footer>
 </body>

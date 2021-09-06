@@ -6,7 +6,7 @@
 
 
 >**Contacts:**</br>
-discord: mariazaikina #8164;
+discord: mariazaikina #8164;</br>
 telegram: @mashtakovaaa</br>
 instagram: [mashtakovaaa](https://www.instagram.com/mashtakovaaa/)</br>
 e-mail: mashtakova93@gmail.com

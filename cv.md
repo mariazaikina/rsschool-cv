@@ -6,7 +6,7 @@
 
 
 >**Contacts:**</br>
-discord: mariazaikina #8164;
+discord: mariazaikina #8164;</br>
 telegram: @mashtakovaaa</br>
 instagram: [mashtakovaaa](https://www.instagram.com/mashtakovaaa/)</br>
 e-mail: mashtakova93@gmail.com
@@ -42,4 +42,3 @@ Saratov State Law Academy, 2014 (area of study: law);
 * self-education in lots of spheres such as psychology/culture/art/urbanism/architecture;
 * reading (english included);
 * 8 years of gym.
-

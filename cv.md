@@ -28,7 +28,7 @@ Saratov State Law Academy, 2014 (area of study: law);
 + to become a valuable part of developers, designers and accomplicies team.
 
 **Professional skills:**
-+  stage 0: JS/FE RS-School (position:590);
++  stage 0: JS/FE RS-School (position: 590);
 +  agile/canban/scrum metodology in municipal administration;
 +  figma as a beginner;
 +  english (B2).

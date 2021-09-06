@@ -1,0 +1,90 @@
+.header {
+  font: 28px, bold;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+  background: rgba(156, 160, 161, 0.5);
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.article {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.key {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+footer {
+  font-style: normal;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+ul {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+ol {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+li {
+  text-align: center;
+}
+.blocktext {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.other {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.social{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color:black
+}

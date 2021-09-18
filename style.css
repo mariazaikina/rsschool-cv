@@ -28,14 +28,15 @@ font-family: 'Assistant';
 .container{
 background-color: #6B318A;
 max-width: 1260px;
-padding:10px 10px;
+padding:10px;
 margin: 0 auto;
 }
 
 
 @media (max-width:767px){
+  
+    
 .header__burger{
-    display:block;
     position: relative;
     width: 30px;
     height: 20px;
@@ -54,7 +55,7 @@ margin: 0 auto;
 }
 .main__description{
     flex-direction: column;
-    justify-content: space-between;
+
 }
 .description{
     font-size: 14px;
@@ -62,6 +63,11 @@ margin: 0 auto;
 }
 
 }
+
+
+
+
+
 
 .header{
    width:100%;
@@ -167,11 +173,10 @@ border: 7px solid #157575;
   
    
 }
-.section__title{
-    
+h2{
     font-size: 40px;
     line-height: 50px;
-   
+   font-weight: inherit;
 }
   
         .list__item{
@@ -181,7 +186,7 @@ border: 7px solid #157575;
         .link__item{
             position:relative;
         }
-        .link__item::after{
+        /*.link__item::after{
             content: "";
   position: absolute;
   bottom: -5px;
@@ -189,8 +194,9 @@ border: 7px solid #157575;
   right: 90%;
   height: 2px;
   background-color: #157575;
+  
         }
-
+*/
 
         .project__link{
         max-width: 100px;

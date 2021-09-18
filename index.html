@@ -23,7 +23,11 @@
 <body>
     <div class = "container">
         <header class = "header">
-      
+      <div class = "header__burger">
+          <button class = "header__burger-btn header__burger-line">
+              <span></span>
+          </button>
+      </div>
                 <aside >
                     <ul class = "header__nav">
                         <li class="header__menu-link"> <a href="#about">About me </a></li>
@@ -58,7 +62,8 @@
     
 
 <section class ="section about__section" id = "about"> 
-    <div class = "section__title"> About me:</div>
+    <div class = "section__title"> 
+        <h2>About me:</h2></div>
     <ul>
 <li class = "list__item">I'm 28 and since i've been graduated for 7 years already I’ve been working for local government as a lawyer.</li>
 
@@ -70,7 +75,8 @@
     </section>
 
 <section class ="section contacts__section" id = "contacts"> 
-    <div class = "section__title"> Contacts:</div>
+    <div class = "section__title"> 
+        <h2>Contacts:</h2></div>
 <ul> 
     <li class = "list__item"> mashtakova93@gmail.com</li>
     <li class = "list__item link__item"> <a href="https://t.me/mashtakovaaa" target="_blank"> telegram </a> </li>
@@ -78,7 +84,7 @@
     </ul>
 </section> 
 <section class ="section priorities__section" id = "priorities"> 
-    <div class = "section__title">Priorities:</div>
+    <div class = "section__title"><h2>Priorities:</h2></div>
     <ul>
         <li class = "list__item">to make world a better place;</li>
         <li class = "list__item">to become a valuable part of a huge team of developers, designers and accomplicies.</li>
@@ -88,7 +94,7 @@
 
     <main> 
     <section class ="section professional__section" id = "professional"> 
-    <div class = "section__title"> Professional skills:</div>
+    <div class = "section__title"> <h2>Professional skills:</h2></div>
     <ul> 
         <li class = "list__item">HTML,CSS;</li>
         <li class = "list__item">Git;</li>
@@ -100,7 +106,7 @@
     </section>
     
 <section class ="section personal__section" id = "personal"> 
-    <div class = "section__title"> Personal skills:</div>
+    <div class = "section__title"> <h2>Personal skills:</h2></div>
     <ul>
         <li class = "list__item">discipline;</li>
         <li class = "list__item">communication;</li>
@@ -110,7 +116,7 @@
       
    
    <section class ="section education__section" id = "education"> 
-   <div class = "section__title">Education:</div>
+   <div class = "section__title"><h2>Education:</h2></div>
 <ul>
     <li class = "list__item">Rs-school: JS/FE Preschool stage 0 (600/5800)</li>
 <li class = "list__item"> Saratov State Law Academy, 2014 (area of study: law);</li>
@@ -120,49 +126,54 @@
 
 
 <section class ="section code__section" id = "code"> 
-<div class = "section__title">Code example:</div>
+<div class = "section__title"><h2>Code example:</h2></div>
 
-<pre><code class="javascript"> function bubblesortOnce(a) {
+<pre><code class ="javascript"> function bubblesortOnce(a) {
     let escaped = a.slice();
-     for (let i = 0; i < escaped.length; i++){
-        if (escaped[i] > escaped[i+1]) {
-      let item = escaped[i];
-      let other = escaped[i+1];  
-      escaped[i] = other;
-      escaped [i+1] = item;
+     for (let i = 0; i<escaped.length; i++){
+        if (escaped[i]>escaped[i+1]) {
+        let item = escaped[i];
+        let other = escaped[i+1];  
+        escaped[i] = other;
+        escaped [i+1] = item;
         }
      }
-    return escaped; 
-    }</code></pre>
+    return escaped;  
+    }  
+</code></pre>
 
 </section>
 <section class ="section projects__section" id = "projects"> 
-    <div class = "section__title">Projects:</div>
-    <ul>
-        <li class = "list__item"> 
-            <figure><a href="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/drum-kit/" target="_blank"><img class ="project__link" src = "./assets/drum.png" alt =""></a></figure> 
-       <a href="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/drum-kit/" target="_blank">1. Drum Kit</a></li>
-        <div class = "list__item">Drum Kit is a musical application in which every button on keyboard plays its own sound. </div> 
-        <div class = "list__item">Also, sounds play by mouseclick and you can switch theme from dark to light.</div>
-        <li class = "list__item"> 
-            <figure><a href ="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/custom-video-player/" target="_blank" ><img class ="project__link"src = "./assets/video.png" alt = ""></a></figure>
-                <figcaption> <a href ="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/custom-video-player/" target="_blank" > 2. Custom video player </a></li>
-        <div class = "list__item">Custom HTML5 video player looks exactly as it is at the design model.</div>
-            <div class = "list__item"> Appearance of this player does not depend of user’s browser or device. </div>
-                <div class = "list__item"> Video plays by mouseclick on screen or icon “play”. Icons “play” and “pause” , “sound” and “mute” replaces each other.</div>
-                    <div class = "list__item">Progress bar follows video. Speed of playback and volume can be changed. Implemented such functions as “+25” and “-10” sec. </div>
+    <div class = "section__title"><h2>Projects:</h2></div>
+    
+      <div class = "list__item">
+           <a href="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/drum-kit/" target="_blank">
+            <img class ="project__link" src = "./assets/drum.png" alt =""></a></div>
+
+       <a href="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/drum-kit/" target="_blank">1. Drum Kit</a>
+        <p class = "list__item">Drum Kit is a musical application in which every button on keyboard plays its own sound. </p> 
+        <p class = "list__item">Also, sounds play by mouseclick and you can switch theme from dark to light.</p>
+        <div class = "list__item">
+            <a href ="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/custom-video-player/" target="_blank" >
+                <img class ="project__link" src = "./assets/video.png" alt = ""></a></div>
+
+                 <a href ="https://rolling-scopes-school.github.io/mariazaikina-JSFEPRESCHOOL/custom-video-player/" target="_blank" > 2. Custom video player </a>
+        <p class = "list__item">Custom HTML5 video player looks exactly as it is at the design model.</p>
+            <p class = "list__item"> Appearance of this player does not depend of user’s browser or device. </p>
+                <p class = "list__item"> Video plays by mouseclick on screen or icon “play”. Icons “play” and “pause” , “sound” and “mute” replaces each other.</p>
+                    <p class = "list__item">Progress bar follows video. Speed of playback and volume can be changed. Implemented such functions as “+25” and “-10” sec. </p>
        
-        </ul>
+        
     </section>
     <section class ="section experience__section" id ="experience"> 
-        <div class = "section__title">Experience:</div>
+        <div class = "section__title"><h2>Experience:</h2></div>
         <ul>
             <li class = "list__item">Saratov city administartion;</li>
             <li class = "list__item">Saratov city council</li>
         </ul>
         </section>
 <section class ="section hobbies__section" id = "hobbies"> 
-<div class = "section__title">Hobbies:</div>
+<div class = "section__title"><h2>Hobbies:</h2></div>
 <ul>
     <li class = "list__item">self-education in lots of spheres such as psychology/culture/art/urbanism/architecture</li> 
     <li class = "list__item"> reading (english included)</li>
@@ -181,6 +192,4 @@
 
 </div>
  </body>  
-
-
 </html>

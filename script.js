@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
    hljs.highlightAll();
 
-  
-
-
 const myOpinion = () => {
   let check = 'Oценка - 150 баллов;\n';
 check += 'Отзыв по пунктам ТЗ:\n';

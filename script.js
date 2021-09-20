@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
    hljs.highlightAll();
 
   
+document.querySelectorAll("code").forEach(function(element) {
+   element.innerHTML = element.innerHTML.replace(/</g,"&lt;").replace(/&/g, "&amp;").replace(/>/g,"&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+});
 
 const myOpinion = () => {
   let check = 'Oценка - 150 баллов;\n';

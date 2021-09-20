@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
    hljs.highlightAll();
 
+  
 
 const myOpinion = () => {
   let check = 'Oценка - 150 баллов;\n';
@@ -23,4 +24,7 @@ check += '15) дизайн, оформление, качество выполн�
 console.info(check);
 }
 myOpinion();
+});
+document.querySelectorAll("code").forEach(function(element) {
+   element.innerHTML = element.innerHTML.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 });

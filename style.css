@@ -173,11 +173,7 @@ margin-left: 50%;
 
 }
 
-/*
-.menu__box--hidden{
-       visibility: hidden;
-       
-}*/
+
 
 
  #menu-toggle{
@@ -241,6 +237,12 @@ margin-bottom: 15px;
         line-height: 50px;
        font-weight: inherit;
     }
+h6{
+    font-size: 19px;
+line-height: 22px;
+font-weight: 100;
+font-family: 'Assistant';
+}
 
   .about__section{
       display: flex;

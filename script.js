@@ -1,3 +1,4 @@
+
 function bubblesortOnce(a) {
     let escaped = a.slice();
      for (let i = 0; i<escaped.length; i++){
@@ -30,3 +31,4 @@ const myOpinion = () => {
  console.info(check);
  }
  myOpinion();
+
